@@ -5,11 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GT Europe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="container">
+        <div class="header-centred">
+          <div class="logo">
+            <svg class="svg-black-icon">
+              <use href="./images/svg/symbol-defs.svg#black-svg"></use>
+            </svg>
+            <p class="logo-text">Good Travel Europe</p>
+          </div>
+          <div>
+            <ul class="header-contacts">
+              <li class="header-contacts_item">
+                <a class="header-contacts_link" href="tel:+380632902993"
+                  >+38 063 290 29 93</a
+                >
+              </li>
+              <li class="header-contacts_item">
+                <a
+                  class="header-contacts_link"
+                  href="mailto:info@goodtravel.com"
+                  >info@goodtravel.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-pause="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img
+                src="/images/img/drone1920x600.jpg"
+                class="d-block w-100"
+                alt="compass"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Поездки Литва-Украина</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="/images/img/happy1920x600.jpg"
+                class="d-block w-100"
+                alt="compass"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Доставка посылок</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="/images/img/compass_1920x600.jpg"
+                class="d-block w-100"
+                alt="compass"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Комфортно - Быстро - Безопасно</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="start-info section">
+        <h2 class="start-info_header">Выезд</h2>
+        <h2 class="start-info_header">10.02.2023 --- Литва-Украина</h2>
+        <h2 class="start-info_header">16.02.2023 --- Украина-Литва</h2>
+        <p class="start-info_text">
+          Здесь можем подробнее опистать маршрут, цену и т.д.
+        </p>
+        <button type="button" class="hero_button" data-modal-open>
+          Заказать услугу
+        </button>
+      </section>
+      <section class="feedbacks section">
+        <div class="container">
+          <h2 class="feedbacks_title">Отзывы</h2>
+          <ul class="feedbacks_list">
+            <li class="feedbacks_item">
+              <div>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum error accusamus tempora cumque facilis dignissimos a ab
+                molestiae rem officiis dolor aliquam, maiores fugit cupiditate
+                quam, optio expedita? Voluptatum et omnis quisquam dolor ducimus
+                amet corrupti, numquam libero ex laudantium accusamus officiis
+                vitae officia mollitia vero fugit obcaecati illo."
+              </div>
+              <p class="feedback_author">Анастасия</p>
+            </li>
+            <li class="feedbacks_item">
+              <div>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam cumque eveniet facilis inventore totam soluta? Ipsum
+                deserunt, recusandae fugit praesentium eaque temporibus nam
+                possimus tempore similique dolorem rem in, esse velit atque
+                expedita excepturi perspiciatis. Veniam voluptate dolores itaque
+                corrupti. Rem aliquam eius atque a numquam id sint voluptates
+                labore!"
+              </div>
+              <p class="feedback_author">Олександр</p>
+            </li>
+            <li class="feedbacks_item">
+              <div>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ab
+                pariatur saepe vel et aliquam rerum explicabo voluptates optio
+                aspernatur non alias numquam mollitia earum nemo aliquid,
+                facilis doloremque molestias. Distinctio ullam aperiam officiis,
+                odio velit dolorum dolore sit suscipit vel excepturi inventore
+                in enim."
+              </div>
+              <p class="feedback_author">Виктория</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-centred">
+          <div class="footer-logo">
+            <svg class="svg-white-icon">
+              <use href="./images/svg/symbol-defs.svg#black-svg"></use>
+            </svg>
+            <p class="footer-logo-text">Good Travel Europe</p>
+          </div>
+          <div>
+            <ul class="footer-contacts">
+              <li class="footer-contacts_item">
+                <a class="footer-contacts_link" href="tel:+380632902993"
+                  >+38 063 290 29 93</a
+                >
+              </li>
+              <li class="footer-contacts_item">
+                <a class="footer-contacts_link" href="tel:+380632902993"
+                  >+38 063 111 11 11</a
+                >
+              </li>
+              <li class="footer-contacts_item">
+                <a
+                  class="footer-contacts_link"
+                  href="mailto:info@goodtravel.com"
+                  >info@goodtravel.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

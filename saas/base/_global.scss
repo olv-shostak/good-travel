@@ -1,0 +1,29 @@
+body {
+  color: $title-text-color;
+  background-color: $primary-background-color;
+  font-family: "Roboto", serif;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+a,
+img {
+  display: block;
+}
+
+img {
+  width: 100%;
+}

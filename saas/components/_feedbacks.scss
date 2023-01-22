@@ -1,0 +1,32 @@
+.feedbacks {
+  background-color: rgb(206, 206, 206);
+  text-align: center;
+}
+
+.feedbacks_title {
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+.feedbacks_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.feedbacks_item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.feedback_author {
+  text-align: end;
+  margin-top: 15px;
+}
